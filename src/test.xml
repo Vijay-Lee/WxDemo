@@ -1,0 +1,55 @@
+<xml>
+
+
+    <!--ToUserName	开发者微信号
+    FromUserName	发送方帐号（一个OpenID）
+    CreateTime	消息创建时间 （整型）
+    MsgType	text 消息类型
+    Content	文本消息内容
+    MsgId	消息id，64位整型-->
+
+    <ToUserName><![CDATA[gh_5c6a24e788c5]]></ToUserName>
+    <FromUserName><![CDATA[oO4H80QFzHuGbj_QuD7w39ztMT90]]></FromUserName>
+    <CreateTime>1542959184</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[受理成功！]]></Content>
+    <MsgId>6626959234772484191</MsgId>
+
+
+    {Content=/::D,
+        CreateTime=1542961956,
+        ToUserName=gh_5c6a24e788c5,
+        FromUserName=oO4H80QFzHuGbj_QuD7w39ztMT90,
+        MsgType=text,
+        MsgId=6626971140421828707
+    }
+
+
+    {
+        "touser":"oO4H80QFzHuGbj_QuD7w39ztMT90",
+        "template_id":"9EJFslfwnr6IdRZ8z6WBh1WKb8aemG5kDPihQEQEhKE",
+        "url":"http://jaylee.free.idcfengye.com/",
+        "data":{
+                "first": {
+                "value":"定时任务执行异常！",
+                "color":"#173177"
+                },
+                "performance":{
+                    "value":"数据采集失败！",
+                    "color":"#173177"
+                },
+                "time":{
+                    "value":"20181127 15:30:29",
+                    "color":"#173177"
+                },
+                "remark":{
+                    "value":"请管理员相互转告，谢谢！",
+                    "color":"#173177"
+                }
+            }
+    }
+
+
+    {{first.DATA}} 故障现象：{{performance.DATA}} 故障时间：{{time.DATA}} {{remark.DATA}}
+
+</xml>
